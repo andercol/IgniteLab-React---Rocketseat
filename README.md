@@ -9,7 +9,7 @@ Desenvolvimento de uma plataforma de conteúdos em vídeo parecida platataforma 
 Aula 02 - Estrutura Visual do Projeto
 --------
 
-<img src="/images/Print_Aula_02.png" alt="Tela status atual da aplicação" style="zoom:50%;" />
+<img src="\images\Print_Aula_02.png" alt="Tela status atual da aplicação" style="zoom:50%;" />
 
 
 
@@ -39,7 +39,7 @@ Aula 03 - Roteamento e player da aula
 
 
 
-<img src="/images/Print_Aula_03.png" alt="Tela status atual da aplicação" style="zoom:50%;" />
+<img src="\images\Print_Aula_03.png" alt="Tela status atual da aplicação" style="zoom:50%;" />
 
 
 
