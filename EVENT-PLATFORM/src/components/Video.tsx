@@ -27,13 +27,13 @@ export function Video(props: VideoProps) {
     return (
         <div className="flex-1">
             <div className="bg-black flex flex-col justify-center ">
-                <div className="h-full w-full max-w-[1200px] max-h-[60vh] aspect-video mx-auto">
+                <div className="h-full w-full max-w-[1100px] max-h-[60vh] aspect-video mx-auto">
                     <Player >
                         <Youtube videoId={data.lesson.videoId} key={data.lesson.videoId} cookies={true}/>
                         <DefaultUi />
                     </Player>
                 </div>
-                <div className="p-8 max-w-[1200px] mx-auto">
+                <div className="p-8 max-w-[1100px] mx-auto">
                     {/* DIV - Titulo e descrição do vídeo */}
                     <div className="flex items-start gap-16">
                         <div className="flex-1">

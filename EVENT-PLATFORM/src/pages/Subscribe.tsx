@@ -6,7 +6,7 @@ export function Subscribe() {
     
     return (
         <div className="min-h-screen bg-blur bg-cover bg-no-repeat flex flex-col items-center">
-            <img className="absolute mt-2" src="/src/assets/ReactJS-icon.png" alt="ReactJS icon" />
+            <img className="absolute mt-2" src="src\assets\ReactJS-icon.png" alt="ReactJS icon" />
             
             <div className="w-full max-w-[1200px] flex items-center flex-wrap justify-between mt-20 mx-auto">
 
@@ -22,9 +22,9 @@ export function Subscribe() {
                 </div>
 
                 <FormSubscribe />
-                
+
             </div>
-            <img src="/src/assets/code-mockup.png" className="mt-10" alt="" />
+            <img src="src\assets\code-mockup.png" className="mt-10" alt="" />
         </div>
     )
 }
