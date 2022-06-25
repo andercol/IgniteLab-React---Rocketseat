@@ -9,7 +9,6 @@ function App() {
   return (
     <ApolloProvider client={client}>
       <BrowserRouter>
-        {/* <Event /> */}
         <Router />
       </BrowserRouter>
     </ApolloProvider>
