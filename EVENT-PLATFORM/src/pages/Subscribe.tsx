@@ -1,12 +1,14 @@
 import FormSubscribe from "../components/FormSubscribe";
 import { Logo } from "../components/Logo";
+import ReactJSicon from "../assets/ReactJSicon.png"
+import codemockup from "../assets/codemockup.png"
 
 
 export function Subscribe() {
     
     return (
         <div className="min-h-screen bg-blur bg-cover bg-no-repeat flex flex-col items-center">
-            <img className="absolute mt-2" src="src\assets\ReactJS-icon.png" alt="ReactJS icon" />
+            <img className="absolute mt-2" src={ReactJSicon} alt="ReactJS icon" />
             
             <div className="w-full max-w-[1200px] flex items-center flex-wrap justify-between mt-20 mx-auto">
 
@@ -24,7 +26,7 @@ export function Subscribe() {
                 <FormSubscribe />
 
             </div>
-            <img src="src\assets\code-mockup.png" className="mt-10" alt="" />
+            <img src={codemockup} className="mt-10" alt="" />
         </div>
     )
 }
